@@ -1,0 +1,38 @@
+﻿Build started 10/19/2014 5:49:22 PM.
+     1>Project "C:\Development\Cave_Story\Cave_Story\Cave_Story.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Development\boost_1_56_0 /I"C:\Development\SDL-1.2.15\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt damage_text.cpp first_cave_bat.cpp game.cpp player.cpp player_health.cpp player_walking_animation.cpp
+         damage_text.cpp
+         Generating Code...
+         Compiling...
+         player_walking_animation.cpp
+         player_health.cpp
+         player.cpp
+         game.cpp
+         first_cave_bat.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Development\Cave_Story\Debug\Cave_Story.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Development\SDL-1.2.15\lib\x86" SDL.lib SDLmain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Development\Cave_Story\Debug\Cave_Story.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Development\Cave_Story\Debug\Cave_Story.lib" /MACHINE:X86 Debug\animated_sprite.obj
+         Debug\backdrop.obj
+         Debug\config.obj
+         Debug\damage_text.obj
+         Debug\first_cave_bat.obj
+         Debug\game.obj
+         Debug\graphics.obj
+         Debug\input.obj
+         Debug\main.obj
+         Debug\map.obj
+         Debug\number_sprite.obj
+         Debug\player.obj
+         Debug\player_health.obj
+         Debug\player_walking_animation.obj
+         Debug\polar_star.obj
+         Debug\sprite.obj
+         Debug\timer.obj
+         Debug\units.obj
+         Cave_Story.vcxproj -> C:\Development\Cave_Story\Debug\Cave_Story.exe
+     1>Done Building Project "C:\Development\Cave_Story\Cave_Story\Cave_Story.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.93
